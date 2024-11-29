@@ -1,0 +1,10 @@
+ion-item {
+    &.selected {
+      background-color: #d4edda;
+    }
+  
+    &.disabled {
+      opacity: 0.5;
+      pointer-events: none;
+    }
+  }
